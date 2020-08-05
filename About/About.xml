@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <name>Beavers Everywhere</name>
+  <author>ToddEStan</author>
+  <supportedVersions>
+    <li>1.0</li>
+    <li>1.1</li>
+  </supportedVersions>
+  <packageId>ToddEStan.BeaversEverywhere</packageId>
+  <description>
+    This mod adds the Beavers event to more biomes.  With this mod, you will get the Beavers event in all biomes except ice sheet and sea ice.  No longer are beavers only limited to arid shrublands and tundras!
+
+    Beavers have been added to the following biomes (vanilla):
+      * Tropical Rainforest
+      * Tropical Swamp
+      * Temperate Forest
+      * Temperate Swamp
+      * Boreal Forest
+      * Cold Bog
+      * Desert
+      * Extreme Desert
+
+    Mod compatibility:
+      This mod also adds the Beavers event to the following modded biomes.  Biomes from other mods are not changed.
+
+    More Vanilla Biomes:
+      * Cloud Forest
+      * Sandbar
+
+    Realistic Planets:
+      * Grassland
+      * Savanna
+      * Steppes
+      * Temperate Desert
+      * Permafrost
+      * Oasis
+
+    This mod is safe to add to an existing save game and can be removed anytime.
+  </description>
+</ModMetaData>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+    <Operation Class="PatchOperationAdd">
+        <success>Always</success>
+        <xpath>/Defs/IncidentDef[defName="Alphabeavers"]/allowedBiomes</xpath>
+        <value>
+            <li>TropicalRainforest</li>
+            <li>TropicalSwamp</li>
+            <li>TemperateForest</li>
+            <li>TemperateSwamp</li>
+            <li>BorealForest</li>
+            <li>Desert</li>
+            <li>ExtremeDesert</li>
+            <li>ColdBog</li>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationFindMod">
+        <mods>
+            <li>More Vanilla Biomes</li>
+        </mods>
+        <match Class="PatchOperationAdd">
+            <xpath>/Defs/IncidentDef[defName="Alphabeavers"]/allowedBiomes</xpath>
+            <value>
+                <li>ZBiome_CloudForest</li>
+                <li>ZBiome_Sandbar_NoBeach</li>
+            </value>
+        </match>
+    </Operation>
+
+    <Operation Class="PatchOperationFindMod">
+        <mods>
+            <li>Realistic Planets - Fan Update</li>
+            <li>Realistic Planets</li>
+        </mods>
+        <match Class="PatchOperationAdd">
+            <xpath>/Defs/IncidentDef[defName="Alphabeavers"]/allowedBiomes</xpath>
+            <value>
+                <li>RRP_Grassland</li>
+                <li>RRP_Savanna</li>
+                <li>RRP_Steppes</li>
+                <li>RRP_TemperateDesert</li>
+                <li>RRP_Permafrost</li>
+                <li>RRP_Oasis</li>
+            </value>
+        </match>
+    </Operation>
+</Patch>
